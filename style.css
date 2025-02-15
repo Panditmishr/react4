@@ -1,0 +1,137 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+}
+.nav {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.left {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.left a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+.center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.item:hover {
+    color: blue;
+    cursor: pointer;
+}
+.active {
+    color: blue;
+}
+#btn {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #1D4ED8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+#btn:hover {
+   background-color: blueviolet;
+}
+.banner {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: flex-start; /* Align content to the left */
+    padding-left: 50px; /* Add space from the left edge */
+    color: #fff;
+}
+
+.text {
+    width: 550px;
+   padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.htext {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+ #red {
+    color: #000;
+    text-align: center;
+}
+#blue {
+    color: #BE123C;
+    text-align: center;
+}
+ p {
+ font-size: 1.5rem;
+  color: #000;
+  line-height: 1.6;
+  text-align: center;
+}
+.btns {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+#learn {
+    width:168px;
+    padding: 12px;
+    color: #fff;
+    background-color: #E11D48;
+    font-size: smaller;
+    text-align: center;
+}
+#learn:hover {
+    background-color: #9f0d31;
+}
+#btn2 {
+    width: 168px;
+    padding: 12px;
+    background-color: white;
+    color: #E11D48;
+    border: none;
+    cursor: pointer;
+    font-size: smaller;
+    text-align: center;
+}
+#btn2:hover {
+   color: #ea0b3c;
+}
+
